@@ -148,3 +148,14 @@ a {
 .sci {
   z-index: 1000;
 }
+
+/* video slide 처리 */
+.slides,
+.texts {
+  display: none;
+}
+
+.slides.active,
+.texts.active {
+  display: block;
+}
